@@ -81,3 +81,8 @@ Week 6:
 - Perform load testing to assess platform performance under simulated traffic.
 - Document load testing results and optimization strategies.
 
+## Anti-Lab 2
+- Nikita Pashchuk
+- [My project](https://github.com/NikitaPash/Pashchuk.University.CityVotingPlatform)
+- [My fork](https://github.com/NikitaPash/webproject)
+

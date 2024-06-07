@@ -4,7 +4,7 @@
 "CrowdCausify: Empowering Social Change" is a service that creates an opportunity to communicate between initiators and people interested in collecting funds for the community.
 
 ## Author
-Vitliy Zhuravskyi
+Vitaliy Zhuravskyi
 - Email: vitaliy.zhuravskyi@gmail.com
 - Telegram: https://t.me/Vitalius05
 
@@ -25,7 +25,11 @@ CrowdCausify is a web platform dedicated to facilitating fundraising for charita
 
 ### Features
 - User Authentication with Google account.
-- Coming soon.
+- Implement feature: User registration and profile creation
+- Campaign creation functionality
+- Donation management system
+- Campaign sharing options
+- Interactive user dashboard
 
 ### Architecture
 Technologies used for the client side: HTML, CSS, JavaScript (TypeScript), Jinja

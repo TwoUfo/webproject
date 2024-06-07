@@ -64,7 +64,7 @@ body{
  }
 .form a{
   font-size: 16px;
-  color: #D03D3B;
+  color: #6E7F80;
   text-decoration: none;
 }
 .form a:hover{
@@ -72,7 +72,7 @@ body{
 }
 .form input.button{
   color: #fff;
-  background: #D03D3B;
+  background: #6E7F80;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 1px;

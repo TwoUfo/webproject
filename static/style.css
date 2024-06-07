@@ -6,7 +6,7 @@ body {
 
 .top-header {
     height: 12vh;
-    background-color: #EB4127;
+    background-color: #6E7F80;
     width: 90%;
     padding: 0px 12vh;
     position: fixed;
@@ -36,6 +36,18 @@ body {
 
 }
 
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered-text p {
+    font-size: 34px;
+    color: #333;
+}
 
 .top-header li a{
     font-size: 18px;
@@ -55,4 +67,42 @@ body {
     height: 100vh;
 
     box-shadow: inset 0 8px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+.campaigns-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.campaign-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.campaign-box p {
+    margin: 0;
+}
+
+.campaign-box a {
+    text-decoration: none;
+    color: #6E7F80;
+    font-weight: bold;
+}
+
+.campaign-box a:hover {
+    text-decoration: underline;
+}
+
+.campaign-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

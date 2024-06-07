@@ -24,10 +24,18 @@
                 <li><a href="">контакти</a></li>
             </ul>
         </div>
+        <div class="centered-text">
+            <p>Реалізовуй мрії разом з CrowdCausify</p>
+        </div>
+
     </div>
 
-    {% for campaign in campaigns %}
-        <p><a href="{% url 'campaign_detail' campaign.campaign_name %}">{{campaign.campaign_name}}</a></p>
-    {% endfor %}
+    <div class="campaigns-container">
+        {% for campaign in campaigns %}
+            <div class="campaign-box">
+                <p><a href="{% url 'campaign_detail' campaign.campaign_name %}">{{ campaign.campaign_name }}</a></p>
+            </div>
+        {% endfor %}
+    </div>
 </body>
 </html>
